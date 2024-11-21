@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortcut icon" href="imgs/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-L7iD6Y6zVZ1B2V9e5n5nBh4L4XjF8oF3qgVgFJ9mDZP7U2qF6CzI/OaG6F1/Q6Wn1hXVpF3+6DhJ7cZz8FH7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5B5t9Vw5D3jFjDBg9b8D4Tf8cE3K5T8p8N4A7lo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha384-tk7e5Y5K8t9jUJHc3aQJ2W9eP4WnEmC2L5s1GeZRws1D4g3qURiMo7tM8EhbA5cg" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  
+  <title>S&T</title>
+</head>
+<body>
+
+    <section class="home">
+        <div class="container-fluid">
+            <h1>Sofi  y Tomy</h1>
+            <img src="img/banner.webp" alt="" class="background-img">
+        </div>
+    </section>
+
+    <section class="blanco">
+        <div>
+
+        </div>
+    </section>
+
+    <section class="cancion">
+        <h1>Estás invitado</h1>
+        <div class="container">
+            <p>Queremos que seas parte de este momento tan especial.</p>
+        </div>
+        <div id="contador">
+            <div class="contador-item">
+                <span class="numero" id="dias"></span>
+                <span class="palabra">DÍAS</span>
+            </div>
+            <div class="contador-item">
+                <span class="numero" id="horas"></span>
+                <span class="palabra">HORAS</span>
+            </div>
+            <div class="contador-item">
+                <span class="numero" id="minutos"></span>
+                <span class="palabra">MINUTOS</span>
+            </div>
+            <div class="contador-item">
+                <span class="numero" id="segundos"></span>
+                <span class="palabra">SEGUNDOS</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="fechas">
+        <div class="container">
+            <img src="img/anillo-de-bodas.png" alt="" class="img-anillos">
+            <h2>Discurso de Bodas</h2>
+            <p>Salón del Reino de los<br>testigos de Jehová</p>
+            <img src="img/ceremonia.png" alt="" class="img-ceremonia">
+            <p>Magdalena Motti de Tieghi 2245, Longchamps</p>
+            <a href="https://maps.app.goo.gl/9rcWu4vgHThoxHLx6" target="_blank" class="boton-maps">
+                Cómo llegar
+            </a>
+        </div>
+        <div class="container">
+            <img src="img/pastel.png" alt="" class="img-anillos">
+            <h2>Fiesta</h2>
+            <p>Quinta "Los Laureles"</p>
+            <img src="img/fiesta.png" alt="" class="img-ceremonia">
+            <p>Manuel Julián Medel 1386, El Jagüel</p>
+            <a href="https://maps.app.goo.gl/aDtrqNX3ewzgz6az6" target="_blank" class="boton-maps">
+                Cómo llegar
+            </a>
+        </div>
+    </section>
+
+    <section class="dresscode">
+        <div class="container-fluid">
+            <img src="img/smoking.png" alt="" class="img-fluid">
+            <img src="img/vestir.png" alt="" class="img-fluid">
+        </div>
+        <div>
+            <h1>Dresscode</h1>
+            <p>Elegante - Elegante Sport</p>
+        </div>
+    </section>
+
+    <section class="fotos">
+        <div class="container-fluid">
+            <h1>Fotos</h1>
+            <p>Compartí con nosotros tus fotos</p>
+        </div>
+        <div class="container-fluid" style="text-align: center;">
+            <a href="" target="_blank" class="boton-fotos">Subir foto</a>
+        </div>
+        <div class="container-fluid" style="text-align: center; padding-top: 10px; padding-bottom: 50px;">
+            <a href="" target="_blank" class="boton-fotos">Ver fotos</a>
+        </div>
+    </section>
+
+    <section class="nosotros">
+        <h1>Nosotros</h1>
+        <div class="container-fluid">
+        <img src="img/1.jpeg" alt="" class="img-fluid">
+        <img src="img/2.jpeg" alt="" class="img-fluid">
+        <img src="img/3.jpeg" alt="" class="img-fluid horizontal">
+        </div>
+    </section>
+
+    <section class="regalos">
+        <img src="img/caja-de-regalo.png" alt="" class="img-fluid">
+        <h1>Regalos</h1>
+        <p>Para nosotros lo más importante es que nos acompañes, pero si deseas hacernos un regalo, aquí tenés nuestros datos</p>
+        <div class="container-fluid" style="text-align: center; padding-top: 10px; padding-bottom: 50px;">
+            
+            <button id="abrirPopup">Ver datos bancarios</button>
+
+            <!-- Pop-Up -->
+            <div id="miPopup" class="popup">
+                <div class="popup-content">
+                    <span class="cerrar">&times;</span>
+                    <p id="textoACopiar">031464311484613154311321</p>
+                    <button id="copiarTexto">Copiar datos</button>
+                </div>
+            </div>
+        </section>
+
+    <section class="confirmar">
+        <h1>Confirmar asistencia</h1>
+        <p>Te pedimos por favor que nos confirmes tu asitencia antes del 15 de Enero</p>
+        <div class="container-fluid" style="text-align: center; padding-top: 10px; padding-bottom: 50px;">
+            <a href="https://wa.me/+5491158061580" target="_blank" class="boton-confirmar">Confirmo</a>
+        </div>
+    </section>
+
+
+    <section class="te-esperamos">
+            <h1>¡Te esperamos!</h1>
+            <h2>Sofi y Tomy</h2>
+            <br>
+            <br>
+            <br>
+    </section>
+
+
+
+    <script>
+        // Fecha objetivo (por ejemplo, el 31 de diciembre de 2024 a medianoche)
+        const fechaObjetivo = new Date("Febrero 15, 2025 10:00:00").getTime();
+      
+        // Actualiza el contador cada segundo
+        const intervalo = setInterval(function() {
+            const ahora = new Date().getTime();
+            const distancia = fechaObjetivo - ahora;
+      
+            // Cálculos de días, horas, minutos y segundos
+            const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+      
+            // Muestra el resultado en los elementos HTML
+            document.getElementById("dias").innerHTML = dias;
+            document.getElementById("horas").innerHTML = horas;
+            document.getElementById("minutos").innerHTML = minutos;
+            document.getElementById("segundos").innerHTML = segundos;
+      
+            // Si la cuenta regresiva terminó
+            if (distancia < 0) {
+                clearInterval(intervalo);
+                document.getElementById("contador").innerHTML = "¡El evento ha comenzado!";
+            }
+        }, 1000);
+    </script>
+    <script>
+        // Obtener elementos
+const abrirPopup = document.getElementById('abrirPopup');
+const miPopup = document.getElementById('miPopup');
+const cerrarPopup = document.querySelector('.cerrar');
+const copiarTextoBtn = document.getElementById('copiarTexto');
+const textoACopiar = document.getElementById('textoACopiar');
+
+// Abrir el pop-up
+abrirPopup.addEventListener('click', () => {
+    miPopup.style.display = 'flex';
+});
+
+// Cerrar el pop-up
+cerrarPopup.addEventListener('click', () => {
+    miPopup.style.display = 'none';
+});
+
+// Copiar texto al portapapeles
+copiarTextoBtn.addEventListener('click', () => {
+    // Crear un elemento temporal para seleccionar el texto
+    navigator.clipboard.writeText(textoACopiar.textContent).then(() => {
+        alert('Texto copiado al portapapeles');
+    }).catch(err => {
+        console.error('Error al copiar texto:', err);
+    });
+});
+    </script>
+</body>
+</html>
