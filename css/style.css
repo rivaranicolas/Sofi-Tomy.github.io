@@ -3,7 +3,7 @@ html {
   }
   body {
     height: 100%;
-    background: linear-gradient(to right, #fcfaf7, #fcf4f0);
+    background: linear-gradient(to right, #D8EBF2, #b7deec);
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
@@ -77,7 +77,7 @@ html {
     font-size: 0.8em;          /* Tamaño del número */
     font-weight: medium;          /* Negrita para el número */
     color: #fff;                /* Color del texto dentro del círculo */
-    background-color: #555;  /* Color de fondo del círculo */
+    background-color: #989b45;  /* Color de fondo del círculo */
     width: 60px;                /* Ancho del círculo */
     height: 60px;               /* Alto del círculo */
     border-radius: 50%;         /* Hace que el fondo sea circular */
@@ -110,8 +110,8 @@ html {
   .boton-maps {
     display: inline-block;
     padding: 10px 100px;
-    background-color: bisque; /* Color azul de Google */
-    color: #555;
+    background-color: #4a95c4; /* Color azul de Google */
+    color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -122,8 +122,8 @@ html {
 
 .boton-maps:hover {
     text-decoration: none;
-    color: #fff;
-    background-color: #555; /* Color más oscuro para el hover */
+    color: #4a95c4;
+    background-color: #aedcf8; /* Color más oscuro para el hover */
 }
 
 /*DRESSCODE*/
@@ -143,7 +143,7 @@ html {
 
 /*FOTOS*/
 .fotos{
-    background-color: bisque;
+    background-color: #e1e48b;
 }
 
 .fotos h1{
@@ -158,8 +158,8 @@ html {
 .boton-fotos {
     display: inline-block;
     padding: 10px 100px;
-    background-color: rgb(252, 204, 145); /* Color azul de Google */
-    color: #555;
+    background-color:#BBBF4E; /* Color azul de Google */
+    color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -172,7 +172,7 @@ html {
 .boton-fotos:hover {
     text-decoration: none;
     color: #fff;
-    background-color: #555; /* Color más oscuro para el hover */
+    background-color: #989b45; /* Color más oscuro para el hover */
 }
 
 /*NOSOTROS*/
@@ -205,7 +205,7 @@ html {
 }
 
 #abrirPopup{
-    background-color: bisque;
+    background-color: #4a95c4;
     border-radius: 5px;
     padding-left: 10%;
     padding-right: 10%;
@@ -213,7 +213,7 @@ html {
     padding-bottom: 3%;
     border: none;
     font-weight:bold;
-    color: #555;
+    color: white;
 }
 /* Estilos para el fondo del pop-up */
 .popup {
@@ -252,8 +252,8 @@ html {
 #copiarTexto {
     margin-top: 15px;
     padding: 8px 15px;
-    background-color: bisque;
-    color: #555;
+    background-color: #4a95c4;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -272,8 +272,8 @@ html {
 .boton-confirmar {
     display: inline-block;
     padding: 10px 100px;
-    background-color: bisque; /* Color azul de Google */
-    color: #555;
+    background-color: #4a95c4; /* Color azul de Google */
+    color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -285,6 +285,6 @@ html {
 
 .boton-confirmar:hover {
     text-decoration: none;
-    color: #fff;
-    background-color: #555; /* Color más oscuro para el hover */
+    color: #4a95c4;
+    background-color: #aedcf8; /* Color más oscuro para el hover */
 }
